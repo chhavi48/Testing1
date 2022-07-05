@@ -5,3 +5,8 @@ describe("test case inside __test__ for sum",function(){
         expect(sum).toBeDefined()
       })
 })
+test('toBe',()=>{
+    expect(10).toBe(10)
+    expect(false).toBe(false)
+    expect({}).toBe({})
+})
