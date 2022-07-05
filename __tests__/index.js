@@ -5,8 +5,21 @@ describe("test case inside __test__ for sum",function(){
         expect(sum).toBeDefined()
       })
 })
-test('toBe',()=>{
+describe("toBe test",()=>{
+test('toBe Number',()=>{
     expect(10).toBe(10)
+
+})
+
+test('toBe Object a===a',()=>{
+     var a={}
+    expect(a).toBe(a)
+})
+
+
+test('toBe boolean',()=>{
+    
     expect(false).toBe(false)
-    expect({}).toBe({})
+})
+
 })
