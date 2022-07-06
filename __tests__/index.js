@@ -21,5 +21,10 @@ test('toBe boolean',()=>{
     
     expect(false).toBe(false)
 })
+describe("toequal",()=>{
+    test("array  []",()=>{
+        expect([]).toEqual([])
+    })
+})
 
 })
